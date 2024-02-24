@@ -33,6 +33,8 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row">
+           
+
           <h1 className="logo">
             <Link
               spy={true}
@@ -41,7 +43,7 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              DarkLeas
+              MK
             </Link>
           </h1>
           <ul className="bar">

@@ -7,7 +7,8 @@ function Services() {
             <div className="col-md-12">
                 <div className="row">
                     <div className="col-md-4 mb-2">
-                        <Card title="Web Development" img="card1.png" text="Morbi eget neque risus. Duis erat quam, porta quis enim id, venenatis blandit nunc. " />
+                
+                        <Card title="Web Development" img="card1.png" text="Morbis eget neque risus. Duis erat quam, porta quis enim id, venenatis blandit nunc. " />
                     </div>
                     <div className="col-md-4 mb-2">
                     <Card title="E-Commerce Services" img="card2.png" text="Maecenas dictum efficitur felis non gravida. Vestibulum vitae ante luctus, accumsan mi vitae, pretium metus." />

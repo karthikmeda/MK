@@ -10,14 +10,15 @@ function Footer() {
           <div className="side1">
             <div className="row">
               <div className="col-md-3">
-                <h1 className="logo">DarkLeas</h1>
+                <h1 className="logo">MK mart</h1>
                 <p className="footer-text">
-                  Lorem ipsum Here are thriteen health benefits of apples Lorem
+                  Easy to Shop feels you better.
         
+
                 </p>
               </div>
               <div className="col-md-3">
-                <p className="footer-title">Important Link</p>
+                <p className="footer-title">See More</p>
                 <ul>
                   <li>
                   <Link   
@@ -45,14 +46,19 @@ function Footer() {
               <div className="col-md-3">
                 <p className="footer-title">Contact</p>
                 <ul>
+                <li>
+                    <Link to="#" > Meda karthik</Link>
+                  </li>
+
                   <li>
-                    <Link to="#" >burhankcd@gmail.com</Link>
+                    <a href="mailto:mkarthikmeda.com" >mkarthikmeda@gmail.com</a>
+                  </li>
+                  
+                  <li>
+                    <a href='tel:+918247418559'>📞call to 8247418559</a>
                   </li>
                   <li>
-                    <Link to="#" > Burhan #3265</Link>
-                  </li>
-                  <li>
-                    <Link to="#" >0212 444 44 44</Link>
+                    <a href='https://maps.app.goo.gl/bFW66ww8iv91Xh4r6'>Location:K.Velamavanipalle, Andhra Pradesh 516390</a>
                   </li>
                 </ul>
               </div>
@@ -60,13 +66,10 @@ function Footer() {
                 <p className="footer-title">Social Media</p>
                 <ul>
                   <li>
-                    <a target="_blank" rel="noreferrer" href="https://github.com/darkleas" > Github</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.instagram.com/karthik__meda/" > Instagram</a>
                   </li>
                   <li>
-                    <a target="_blank" rel="noreferrer" href="https://twitter.com/burhankocadag0" > Twitter</a>
-                  </li>
-                  <li>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/burhan-kocada%C4%9F-49a3331a5/"> Linkedin</a>
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/karthik-meda/"> Linkedin</a>
                   </li>
                 </ul>
               </div>
