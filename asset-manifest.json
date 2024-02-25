@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MK_Mart/static/css/main.eeb7f5da.css",
+    "main.js": "/MK_Mart/static/js/main.26293612.js",
+    "static/media/groceryimg.jpg": "/MK_Mart/static/media/groceryimg.d120b0f390d5622002dc.jpg",
+    "static/media/printerimg.jpg": "/MK_Mart/static/media/printerimg.2c5ef0a31d87686fa835.jpg",
+    "static/media/fancyimg.jpg": "/MK_Mart/static/media/fancyimg.3a16d4e8e76452ff5cb1.jpg",
+    "static/media/groceryimg2.jpg": "/MK_Mart/static/media/groceryimg2.36785c77e1c0f6b3ded6.jpg",
+    "static/media/mk_logo.png": "/MK_Mart/static/media/mk_logo.980644cb3878f8c9ee8b.png",
+    "static/media/aboutimg.jpg": "/MK_Mart/static/media/aboutimg.9ab19de25f7c831ef778.jpg",
+    "static/media/mobileimg.jpg": "/MK_Mart/static/media/mobileimg.4ce074800e67f31d27ea.jpg",
+    "index.html": "/MK_Mart/index.html",
+    "main.eeb7f5da.css.map": "/MK_Mart/static/css/main.eeb7f5da.css.map",
+    "main.26293612.js.map": "/MK_Mart/static/js/main.26293612.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeb7f5da.css",
+    "static/js/main.26293612.js"
+  ]
+}
