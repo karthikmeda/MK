@@ -12,6 +12,43 @@ body {
   overflow: hidden!important;
 }
 
+.header-container {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust the background color and opacity */
+  padding: 10px; /* Adjust padding as needed */
+}
+
+.quote {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+}
+
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -39,6 +76,96 @@ code {
   margin-right: auto;
   margin-left: auto;
 }
+
+.homepage-container {
+  position: relative;
+  width: auto;
+  max-width: 1300px;
+  padding: 50px;
+  margin: 0 auto;
+  height: 100vh;
+  background-image: url('../src/img/mk_logo.png'); /* Path to your mk_logo image */
+  background-size: cover;
+  background-position: center;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(248, 248, 248, 0.1);
+  color: white; /* Set font color to white */
+  opacity: 0.599;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.homepage-container .content {
+  text-align: left;
+}
+
+.homepage-container h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.homepage-container p {
+  font-size: 18px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.homepage-container .grocery-categories {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.homepage-container .grocery-categories li {
+  font-size: 16px;
+  color: #faf9f9;
+  margin-bottom: 10px;
+  border-bottom: none;
+  padding-bottom: 5px;
+}
+
+.homepage-container .grocery-categories li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.homepage-container h1 {
+  font-size: 48px; /* Increase the font size for better readability */
+  color: #ffffff; /* Set font color to white */
+   /* Add a subtle text shadow for better contrast */
+  margin-bottom: 20px;
+  font-weight: bold; /* Make the font bold */
+}
+
+
+.grocery-categories {
+  color:white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left; /* Align the text to the left */
+}
+
+
+
+/* Add these styles at the end of your index.css file */
+
+.container img {
+  display: block; /* Ensure the image is displayed as a block element */
+  max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+  height: auto; /* Maintain the aspect ratio of the image */
+}
+
+/* If needed, you can also override any other styles that might affect the image */
+
+
+
+
 .contact .row {
   width: 100%;
 }
@@ -50,6 +177,16 @@ code {
   max-width: 60%;
   width: 50%;
 }
+
+.image-container {
+  display: flex;
+}
+
+.image-container img {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
+
+
 .text-center {
   text-align: center;
 }
@@ -99,7 +236,7 @@ code {
 }
 /* Navbar */
 .navopened {
-  background-color: #010606!important;
+  background-color: #14c084!important;
 }
 .navopened .logo {
   color: #fafafa!important;
@@ -108,7 +245,7 @@ code {
   color: #fafafa!important;
 }
 .navopened .burger {
-  background-color: #010606!important;
+  background-color: #516e13!important;
 }
 .navbar {
   transition: background-color 0.4s;
@@ -185,8 +322,8 @@ video {
   height: 100vh;
   z-index: 0;
   top: 0;
-  background-color: black;
-  opacity: 0.7;
+  background-color:black;
+  opacity: 0;
 
 }
 header {
@@ -576,4 +713,59 @@ ul li a {
 }
 .mb-1 {
   margin-bottom: 1rem!important;
+}
+
+
+.contact-form {
+  font : white;
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgb(32, 203, 169);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form {
+  font:white;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  color:white;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font:white;
+  width: calc(100% - 1rem);
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+  box-sizing: border-box;
+}
+
+
+
+
+.contact-form input[type="submit"] {
+  font: white;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color:#47b3af;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form input[type="submit"]:hover {
+  font:white;
+  background-color: #67c818;
 }

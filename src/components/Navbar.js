@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-
+const myImage = require('../img/mk_logo.png');
 function Navbar() {
   document.addEventListener("scroll", function (e) {
     if (window.screen.width < 768 && window.scrollY > 690) {
@@ -43,7 +43,7 @@ function Navbar() {
               to="headerbg"
               style={{ cursor: "pointer" }}
             >
-              MK
+              <img src={myImage} height={69} width={75} alt="Description" />
             </Link>
           </h1>
           <ul className="bar">
