@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/MK-Mart/static/css/main.a99b84e4.css",
-    "main.js": "/MK-Mart/static/js/main.275b9b4c.js",
-    "static/media/groceryimg.jpg": "/MK-Mart/static/media/groceryimg.d120b0f390d5622002dc.jpg",
-    "static/media/printerimg.jpg": "/MK-Mart/static/media/printerimg.2c5ef0a31d87686fa835.jpg",
-    "static/media/fancyimg.jpg": "/MK-Mart/static/media/fancyimg.3a16d4e8e76452ff5cb1.jpg",
-    "static/media/groceryimg2.jpg": "/MK-Mart/static/media/groceryimg2.36785c77e1c0f6b3ded6.jpg",
-    "static/media/mk_logo.png": "/MK-Mart/static/media/mk_logo.980644cb3878f8c9ee8b.png",
-    "static/media/aboutimg.jpg": "/MK-Mart/static/media/aboutimg.9ab19de25f7c831ef778.jpg",
-    "static/media/mobileimg.jpg": "/MK-Mart/static/media/mobileimg.4ce074800e67f31d27ea.jpg",
-    "index.html": "/MK-Mart/index.html",
-    "main.a99b84e4.css.map": "/MK-Mart/static/css/main.a99b84e4.css.map",
-    "main.275b9b4c.js.map": "/MK-Mart/static/js/main.275b9b4c.js.map"
+    "main.css": "/static/css/main.b7e33852.css",
+    "main.js": "/static/js/main.d2206573.js",
+    "static/media/groceryimg.jpg": "/static/media/groceryimg.d120b0f390d5622002dc.jpg",
+    "static/media/printerimg.jpg": "/static/media/printerimg.2c5ef0a31d87686fa835.jpg",
+    "static/media/fancyimg.jpg": "/static/media/fancyimg.3a16d4e8e76452ff5cb1.jpg",
+    "static/media/groceryimg2.jpg": "/static/media/groceryimg2.36785c77e1c0f6b3ded6.jpg",
+    "static/media/mk_logo.png": "/static/media/mk_logo.980644cb3878f8c9ee8b.png",
+    "static/media/aboutimg.jpg": "/static/media/aboutimg.9ab19de25f7c831ef778.jpg",
+    "static/media/mobileimg.jpg": "/static/media/mobileimg.4ce074800e67f31d27ea.jpg",
+    "index.html": "/index.html",
+    "main.b7e33852.css.map": "/static/css/main.b7e33852.css.map",
+    "main.d2206573.js.map": "/static/js/main.d2206573.js.map"
   },
   "entrypoints": [
-    "static/css/main.a99b84e4.css",
-    "static/js/main.275b9b4c.js"
+    "static/css/main.b7e33852.css",
+    "static/js/main.d2206573.js"
   ]
 }
